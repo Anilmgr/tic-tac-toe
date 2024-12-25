@@ -14,7 +14,8 @@ body{
 }
 
 .title{
-  font-size: 3rem;
+  font-size: 3.6rem;
+  text-shadow: 6px 6px #989898, 6px 6px #6c6666;
 }
 
 .square{
@@ -25,7 +26,7 @@ body{
   font-size: 2.5rem;
 }
 
-.square:hover{
+.square:hover, .reset-btn:hover{
   cursor: pointer;
   border-color: rgb(0, 108, 162);
 }
@@ -33,4 +34,20 @@ body{
 .board-row{
   display: flex;
   justify-content: center;
+}
+
+.reset-btn{
+  margin-top: 2rem;
+  padding: 0.5rem;
+  font-family: "Doto", serif;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border-style: dashed;
+}
+
+.status{
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
 }
